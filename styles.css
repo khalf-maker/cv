@@ -1,0 +1,32 @@
+.header img {
+    float: left;
+    width: 200px;
+    height: 200px;
+   
+   
+  }
+  
+ h1 {
+
+font-weight: 900;
+position: relative;
+left: 14px;
+top: 22px;
+ } 
+  
+h1::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+height: 03px;
+width: 0%;
+background-color: #333;
+transition: ease all  4s ;
+  }
+  h1:hover::after{
+width: 100%;
+
+
+  }
+  
